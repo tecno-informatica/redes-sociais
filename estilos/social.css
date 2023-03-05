@@ -1,0 +1,26 @@
+@charset "UTF-8";
+ 
+* {
+           margin: 0px;
+           padding: 0px;
+           font-family: Arial, Helvetica, sans-serif;
+       }
+       ::-webkit-scrollbar { /*Esconder barra de rolagem*/
+           width: 0px;
+           height: 0px;
+       }
+       img {
+           width: 100vw; /*Largura completa da pagina*/
+       }
+       a {
+           display: block; /*Botão Acesse a esquerda*/
+           background-color: darkred;
+           color: white;
+           padding: 20px;
+           text-align: center;
+           font-weight: bolder; /*Negrito*/
+           text-decoration: none; /*Excluir sublinhado*/
+       }
+       a:hover { /*Ao passar mouse no ACESSE, mudar cor*/
+           background-color: red;
+       }
